@@ -1,4 +1,6 @@
-const data = [
+import { createContext } from "react"
+
+export const data = createContext([
     {
       "id": 1,
       "productName": "버그를 Java라 버그잡는 개리씨 키링 개발자키링 금속키링",
@@ -159,4 +161,4 @@ const data = [
       "pubDate": "2022-02-28",
       "modDate": "2022-02-28"
     }
-  ]
+  ])
