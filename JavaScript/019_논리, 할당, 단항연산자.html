@@ -8,6 +8,24 @@
     </head>
     <body>
         <script>
+                // 논리연산자
+
+    let couponlist = ["9b5fcc71", "9b5fcc72", "9b5fcc73"];
+    user = [
+      {
+        userid: 1,
+        username: "hojun",
+        쿠폰사용가능여부: !!couponlist[0],
+        coupon: couponlist[0],
+      },
+    ];
+
+    console.log(Boolean([])); // 다른 언어에서는 false로 나오는데 JS에서는 true로 나옵니다.
+
+    // 문제: username와 pw 모두 입력해야만 회원가입 성공여부가 true / false로 나오게 해주세요.
+    회원가입_성공여부 = username && pw ? true : false
+            
+            
             // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
             let a = 10;
             a = a + 10;
